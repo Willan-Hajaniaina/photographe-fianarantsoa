@@ -1,0 +1,16 @@
+<!-- même en-tête et navbar -->
+<h2 class="text-center mt-5">Galerie</h2>
+<div class="container text-center mb-4">
+  <button class="btn btn-outline-dark" onclick="filterPhotos('all')">Tous</button>
+  <button class="btn btn-outline-dark" onclick="filterPhotos('portrait')">Portrait</button>
+  <button class="btn btn-outline-dark" onclick="filterPhotos('mariage')">Mariage</button>
+  <button class="btn btn-outline-dark" onclick="filterPhotos('paysage')">Paysage</button>
+</div>
+
+<div class="container row g-4" id="gallery">
+  <div class="col-md-4 photo portrait"><img src="https://picsum.photos/seed/portrait/600/400" alt="Portrait"></div>
+  <div class="col-md-4 photo mariage"><img src="https://picsum.photos/seed/mariage/600/400" alt="Mariage"></div>
+  <div class="col-md-4 photo paysage"><img src="https://picsum.photos/seed/paysage/600/400" alt="Paysage"></div>
+</div>
+
+<script src="js/script.js"></script>
